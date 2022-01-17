@@ -1,0 +1,51 @@
+
+.navbar {
+    background: black;
+    border-bottom:  rgb(182, 156, 12) 7px solid;
+    
+}
+.dark-overlay {
+    color: white;
+}
+#home-section .home-inner {
+    padding-top: 150px;
+}
+.input-group{
+    border: black 1px solid;
+}
+.form-select {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#home-section {
+    background: url(../img/manipal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+  }
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .card {
+      height: 100%;
+      color: black;
+      background: rgb(182, 156, 12);
+  }
+ .img-fluid {
+     position: fixed;
+     max-width: 90px;
+     height: auto;
+     margin-bottom: -60px;
+     margin-left: 60px;
+ }
+ .card:hover {
+     background-color: black;
+     color: blanchedalmond;
+ }
